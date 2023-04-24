@@ -1,7 +1,7 @@
 {
   "name": "sprint_4",
   "version": "1.0.0",
-  "description": "",
+  "description": "A empresa que você trabalha precisa criar um MVP (Minimum Viable Product) de uma API que faz o controle de usuários através de um CRUD. Essa API também precisa ter um controle de acessos, onde alguns recursos podem ser acessados apenas por usuários que fizeram login na aplicação, e outros recursos apenas usuários que fizeram login e tem permissões de administrador podem acessar.",
   "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test SECRET_KEY=chavesecreta jest --forceExit --runInBand",
@@ -35,5 +35,13 @@
     "ts-jest": "^29.1.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenzie-Academy-Brasil-Developers/crud_admin_m4-kZnick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kenzie-Academy-Brasil-Developers/crud_admin_m4-kZnick/issues"
+  },
+  "homepage": "https://github.com/Kenzie-Academy-Brasil-Developers/crud_admin_m4-kZnick#readme"
 }
